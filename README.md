@@ -31,13 +31,19 @@ You will be penalized 10 seconds for every incorrect answer.
 
 💡Resources Sites used for referance and inperation. 
 
-[HTML and CSS: Design and Build Websites 1st Edition](Author-Jon Duckett)
-https://www.w3schools.com/js/ 
-https://developer.mozilla.org/en-US/docs/Learn/MathML
-Emoji- https://getemoji.com/assets/#objects
-Youtube
-Udemy Javascript 
-Tutoring 
+-[HTML and CSS: Design and Build Websites 1st Edition](Author-Jon Duckett)
+
+-https://www.w3schools.com/js/ 
+
+-https://developer.mozilla.org/en-US/docs/Learn/MathML
+
+-Emoji- https://getemoji.com/assets/#objects
+
+-Youtube
+
+-Udemy Javascript 
+
+-Tutoring 
 
 ## 🚀 Authors
 
