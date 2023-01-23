@@ -1,4 +1,4 @@
-# Challange 4 Code Quiz 📫 🚀 💡 
+# Challenge 4 Code Quiz 📫 🚀 💡 
 
 💡 Code quiz Challenge 4  What this codes does is  
 An app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. 
