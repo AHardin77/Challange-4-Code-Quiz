@@ -1,0 +1,66 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+/* Background image and postining of js game */         
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(candy.jpeg);
+    
+}
+.center{
+text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+.btn-secondary{
+    background-color: aquamarine;
+}
+.btn-secondary:hover{
+    background-color: #cba4ff;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color:#ff69b4;
+    cursor: pointer;
+}
+.btn-success:hover{
+background-color: #7fffd4;
+}
+
+
+/* hide sections until they are shown via the click events */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+/* Remove bullet points from answers list */
+ul.nobullets {
+list-style-type: none;
+}
+
+/* Answer button styling */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #cba4ff;
+}
