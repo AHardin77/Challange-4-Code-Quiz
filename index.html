@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <!-- Page Title -->
+    <title>My Javascript Quiz</title>
+</head>
+
+<body>
+    <!-- Container for Header -->
+    <header class="container-fluid">
+        <!-- div for scores link and time -->
+        <div class="header row">
+            <!-- View highscores -->
+            <div class="col-6">
+                <!-- <a href="">View Highscores</a> -->
+                <button id="view-scores" type="button" class="btn btn-secondary">View High Scores</button>
+            </div>
+            <!-- Timer -->
+            <div class="col-6">
+                <p class="align-right end time">Time:75s</p>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Container for Intro, Questions, Answers -->
+        <div class="container">
+            <!-- Section for H1 and Intro // Hide upon Start-->
+            <section id="intro">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6 center">
+                        <h1>🎲 Javascript Quiz Challenge!🔮</h1>
+                        <p>⏳ Try to answer my javascript code questions within the time limit. Any incorrect answers will negatively impact your score. Please select the pink start button to begin. 🎉</p>
+                        <button id="start" type="button" class="btn btn-success">Start Quiz</button></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section for Question and Answers // Show upon Start-->
+            <section id="questions">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h2 id="question">I'm a question</h2>
+                        <ul class="px-0 py-0 nobullets">
+                            <li class="mb-3"><button id="answer1" value="1" type="button"
+                                    class="btn btn-success ansBtn">Answer1</button></li>
+                            <li class="mb-3"><button id="answer2" value="2" type="button"
+                                    class="btn btn-success ansBtn">Answer2</button></li>
+                            <li class="mb-3"><button id="answer3" value="3" type="button"
+                                    class="btn btn-success ansBtn">Answer3</button></li>
+                            <li class="mb-3"><button id="answer4" value="4" type="button"
+                                    class="btn btn-success ansBtn">Answer4</button></li>
+                            
+                        </ul>
+                        <div id="yaynay" class="font-weight-light font-italic">
+                            <hr>
+                            <!-- Correct or Wrong will be added via JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section for Final Score and Name -->
+            <section id="final">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                        <h2>All done!</h2>
+                        <p>Your final score is: <span id="score" class="pl-1">0</span></p>
+                        <!-- <p class="score">Your final score is: </p> -->
+                        <p>Enter initials: <span class="ml-1"><input placeholder="initials" id="initials" /></span>
+                            <button id="submit-score" class="btn btn-success">Submit</button>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section for High Scores -->
+            <section id="highscores">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                            <h2>High Scores</h2>
+                            <!-- High scores should be added as a sorted desc list -->
+                            <ol id="score-list">
+                                <!-- <li></li> -->
+                            </ol>
+                            <button id="goback" class="btn btn-success ">Go back</button>
+                            <button id="clearscores" class="btn btn-success">Clear scores</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Container Ends -->
+        </div>
+    </main>
+
+    <!-- Javascript connector -->
+    <script src="script.js"></script>
+</body>
+
+</html>
